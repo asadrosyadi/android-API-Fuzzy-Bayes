@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:text="Waktu"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_below="@id/time_text_view"
+            android:text="RH : " />
+        <TextView
+            android:id="@+id/rh_text_view"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@id/time_text_view"
+            android:text="rh_text_view: " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@id/time_text_view"
+            android:text=" %" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rh_text_view"
+            android:textColor="#000000"
+            android:text="Suhu Udara : " />
+
+        <TextView
+            android:id="@+id/suhu_udara_text_view"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rh_text_view"
+            android:text="suhu_udara_text_view: " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_below="@id/rh_text_view"
+            android:text=" C" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:text="Suhu Udara : " />
+
+        <TextView
+            android:id="@+id/suhu_daun_text_view"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rh_text_view"
+            android:textStyle="bold"
+            android:text="suhu_daun_text_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:textStyle="bold"
+            android:text=" C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rh_text_view"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="Media Tanam : " />
+
+        <TextView
+            android:id="@+id/media_tanam_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_below="@id/rh_text_view"
+            android:textSize="16sp"
+            android:text="media_tanam_text_view: " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_below="@id/rh_text_view"
+            android:textSize="16sp"
+            android:text=" %" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rh_text_view"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:text="PPM : " />
+
+        <TextView
+            android:id="@+id/ppm_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_below="@id/rh_text_view"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="ppm_text_view: " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_below="@id/rh_text_view"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text=" ppm" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:layout_below="@id/rh_text_view"
+            android:textSize="16sp"
+            android:text="pH : " />
+
+        <TextView
+            android:id="@+id/ph_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:layout_below="@id/rh_text_view"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="ph_text_view: " />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rh_text_view"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="Oksigen : " />
+
+        <TextView
+            android:id="@+id/oksigen_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:textStyle="bold"
+            android:text="oksigen_text_view: " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:textStyle="bold"
+            android:text=" ppm" />
+
+    </LinearLayout>
+
+    </LinearLayout>
